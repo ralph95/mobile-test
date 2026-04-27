@@ -26,7 +26,7 @@ export default function Index() {
       />
 
       <FlatList
-        scrollEnabled={false}
+        scrollEnabled={true}
         className="mt-2 pb-32"
         data={movies || []}
         keyExtractor={(item) => item.id.toString()}
